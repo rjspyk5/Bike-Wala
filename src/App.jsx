@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { Routing } from './Components/Routing'
+
 
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1 className="text-center text-red-500">Hello Wrld</h1>
+     <Routing/>
     </>
   )
 }

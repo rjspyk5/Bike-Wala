@@ -1,10 +1,10 @@
 import React from 'react';
-import { Navbar } from './Header/Navbar/Navbar';
+import { Header } from './Header/Header';
 
 export const Routing = () => {
   return (
-    <>
-      <Navbar></Navbar>
-    </>
+    <div>
+      <Header></Header>
+    </div>
   );
 };

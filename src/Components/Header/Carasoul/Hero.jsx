@@ -5,7 +5,7 @@ export const Hero = props => {
     <div className='w-full '>
       <div className='hero-content flex-col justify-between lg:flex-row-reverse'>
         <img src={props.img} />
-        <div className='*:text-white max-w-[456px]'>
+        <div className='*:text-white max-w-[456px] mt-10'>
           <p className='font-normal text-[14px]'>
             Computer-controlled digital transistorized with electronic advance
           </p>
